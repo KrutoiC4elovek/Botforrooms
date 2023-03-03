@@ -115,7 +115,7 @@ LatestRoom:GetPropertyChangedSignal("Value"):Connect(function()
         Sound.PlayOnRemove = true
         Sound:Destroy()
         
-        game.StarterGui:SetCore("SendNotification", { Title = "youtube.com/geoduude"; Text = "Thank you for using my script!" })
+        game.StarterGui:SetCore("SendNotification", { Title = "https://www.youtube.com/watch?v=XIRsKGYuzng"; Text = "Спасибо за использование моего бота!" })
         return
     end
 end)
